@@ -20,6 +20,7 @@
 
 .SUFFIXES : .o .c .d
 
+CC = mipsel-linux-gnu-gcc
 EXEC := udpxy
 UDPXREC := udpxrec
 
