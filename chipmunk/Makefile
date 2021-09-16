@@ -24,7 +24,7 @@ CC = mips64-linux-gnuabi64-gcc
 EXEC := udpxy
 UDPXREC := udpxrec
 
-STRIP := /usr/bin/strip
+STRIP := /usr/bin/mips64-linux-gnuabi64-strip
 GZIP  := /bin/gzip
 
 MKDEPOPT := -MM
